@@ -48,4 +48,9 @@ export default [
     robot: 'robot 3',
     route: '3',
   },
+  {
+    title: 'title 3',
+    robot: 'robot 3',
+    route: '3',
+  },
 ];
