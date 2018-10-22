@@ -1,34 +1,26 @@
 export default [
   {
     name: 'Web',
-    route: '',
+    route: '/web/posts/intro',
   },
   {
     name: 'Javascript',
-    route: '',
+    route: '/javascript/posts/intro',
   },
   {
     name: 'Vue',
-    route: '',
+    route: 'vue',
   },
   {
     name: 'Git',
-    route: '',
-  },
-  {
-    name: 'DesignPattern',
-    route: '',
-  },
-  {
-    name: 'etc',
-    route: '',
+    route: 'git',
   },
   {
     name: 'Algorithm',
-    route: '',
+    route: 'algorithm',
   },
   {
     name: 'BlahBlah',
-    route: '',
+    route: 'blahblah',
   },
 ];

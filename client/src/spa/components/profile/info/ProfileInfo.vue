@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       name: '김희철',
-      intro: '안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요',
+      intro: '배우는것을 좋아하기 때문에 계속해서 \'나\'를 발전시키고 싶습니다. 또한 사람과 이야기하는것을 좋아합니다.',
     };
   },
 };
@@ -25,9 +25,8 @@ export default {
 
 <style lang="sass" scoped>
   .profile-info-wrap
-    width: 180px
+    width: 150px
     height: 140px
-    padding: 10px
     .info-header-wrap
       width: 100%
       height: 30px
@@ -41,6 +40,7 @@ export default {
       width: 100%
       height: 70px
       .info-text--body
+        text-align: justify
         font-size: 12px
         color: rgba(44, 62, 80, 0.73)
 </style>

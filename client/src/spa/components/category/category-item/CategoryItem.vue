@@ -1,5 +1,5 @@
 <template>
-  <div class="category-list">
+  <div class="category-list" @click="routing">
     <div class="category-list__li">
       <span class="category-list__li-text">{{ name }}</span>
     </div>
@@ -17,6 +17,14 @@ export default {
     route: {
       type: String,
     },
+    md: {
+      type: Object,
+    },
+  },
+  methods: {
+    routing() {
+      this.$router.push({ path: this.route });
+    },
   },
 };
 </script>
@@ -32,7 +40,7 @@ export default {
     height: 100%
     border-left: 2px solid #d7d7d7
     padding: 12px 0 12px 24px
-    transition: 0.3s
+    transition: 0.3s ease-out
     cursor: pointer
   .category-list__li:hover
     transform: translate(5px, 0)
