@@ -42,7 +42,9 @@ export default {
         padding-left: 20px
         border-left: 2px solid #d7d7d7
         cursor: pointer
+        transition: 0.2s ease-out
       li:hover
         color: #4257f2
         text-decoration: underline
+        border-left: 2px solid #4257f2
 </style>

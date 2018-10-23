@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-import ProfileImage from '../../../assets/images/profile.jpeg';
+import ProfileImage from '@/assets/images/profile.jpeg';
 import ProfileInfo from './info/ProfileInfo';
 import Spec from './spec/Spec';
 
@@ -35,8 +35,8 @@ export default {
       width: 100%
       height: 140px
       .profile-wrap__img-container__img-wrap
-        width: 100px
-        height: 100px
+        width: 80px
+        height: 80px
         border-radius: 100px
         overflow: hidden
         border: 1px solid rgba(44, 62, 80, 0.2)

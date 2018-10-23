@@ -45,6 +45,7 @@ export default {
         { title: 'Webpack' },
         { title: 'Vue' },
         { title: 'NPM' },
+        { title: 'Git' },
       ],
     };
   },

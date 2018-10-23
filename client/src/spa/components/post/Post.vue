@@ -11,7 +11,3 @@ export default {
   props: ['md'],
 };
 </script>
-
-
-<style lang="sass" scoped>
-</style>
