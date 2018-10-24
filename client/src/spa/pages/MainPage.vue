@@ -1,8 +1,6 @@
 <template>
   <div class="contents">
-    <div class="contents__body">
-      <post :md="intro"/>
-    </div>
+    <post :md="intro"/>
   </div>
 </template>
 
@@ -27,11 +25,8 @@ export default {
 
 <style lang="sass" scoped>
   .contents
+    padding: 50px 10px 0
     width: 100%
     height: 100%
     flex: 7
-    .contents__body
-      max-width: 1080px
-      min-width: 800px
-      padding: 40px
 </style>

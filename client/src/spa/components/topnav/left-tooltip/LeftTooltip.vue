@@ -12,16 +12,6 @@ import Eventbus from './../../../../lib/Eventbus';
 
 export default {
   name: 'LeftTooltip',
-  computed: {
-    folding() {
-      return this.foldState;
-    },
-  },
-  data() {
-    return {
-      foldState: false,
-    };
-  },
   methods: {
     showMenu() {
       Eventbus.$emit('sidebarToggle');
@@ -32,13 +22,16 @@ export default {
 
 
 <style lang="sass" scoped>
+  @import './../../../../assets/sass/utils/variables'
+
   .left-tooltip-wrap
+    z-index: 2100
     width: 50px
     height: 50px
     .left-tooltip-button
       width: 1.25rem
       height: 1.25rem
       position: absolute
-      color: #5b5777
+      color: $major-color
       cursor: pointer
 </style>

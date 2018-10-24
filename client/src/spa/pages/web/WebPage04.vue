@@ -6,7 +6,7 @@
 
 
 <script>
-import MarkDown from '@/assets/posts/web/intro/intro.md';
+import MarkDown from '@/assets/posts/web/4/post.md';
 import Post from './../../components/post/Post';
 
 export default {
