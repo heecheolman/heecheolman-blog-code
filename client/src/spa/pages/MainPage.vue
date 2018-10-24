@@ -1,23 +1,20 @@
 <template>
-  <div class="contents">
-    <post :md="intro"/>
+  <div class="page contents">
+    <page-intro />
+    <card-section />
   </div>
 </template>
 
 
 <script>
-import Post from './../components/post/Post';
-import IntroMarkDown from '../../assets/md/intro.md';
+import PageIntro from './../components/page-intro/PageIntro';
+import CardSection from './../components/card/CardSection';
 
 export default {
   name: 'MainPage',
   components: {
-    Post,
-  },
-  data() {
-    return {
-      intro: IntroMarkDown,
-    };
+    PageIntro,
+    CardSection,
   },
 };
 </script>
@@ -25,8 +22,6 @@ export default {
 
 <style lang="sass" scoped>
   .contents
-    padding: 50px 10px 0
-    width: 100%
-    height: 100%
-    flex: 7
+    padding: 50px 20px 30px 20px
+    overflow-y: scroll
 </style>

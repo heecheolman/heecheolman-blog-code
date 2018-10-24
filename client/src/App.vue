@@ -30,6 +30,7 @@ export default {
 
 <style lang="sass">
   @import 'assets/sass/base/common'
+  @import 'assets/sass/base/typograhpy'
   @import 'assets/sass/layout/flex'
   @import 'assets/sass/layout/page'
   @import '~github-markdown-css'

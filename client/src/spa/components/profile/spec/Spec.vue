@@ -48,6 +48,8 @@ export default {
         { title: 'NPM' },
         { title: 'Git' },
         { title: 'Sass' },
+        { title: 'AWS' },
+        { title: 'PostgreSQL' },
       ],
     };
   },

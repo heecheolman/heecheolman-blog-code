@@ -7,7 +7,7 @@
 
 <script>
 import MarkDown from '@/assets/posts/js/8/post.md';
-import Post from './../../components/post/Post';
+import Post from '../../components/post/Post';
 
 export default {
   name: 'WebPageIntro',

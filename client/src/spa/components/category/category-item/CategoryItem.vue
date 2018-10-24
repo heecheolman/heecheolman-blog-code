@@ -1,9 +1,13 @@
 <template>
-  <div class="category-list" @click="routing">
-    <div class="category-list__li">
+  <router-link :to="{ path: this.route }"
+               tag="div"
+               class="category-list">
+
+    <div class="category-list__li" @click="sidebarOff">
       <span class="category-list__li-text">{{ name }}</span>
     </div>
-  </div>
+
+  </router-link>
 </template>
 
 
@@ -24,8 +28,7 @@ export default {
     },
   },
   methods: {
-    routing() {
-      this.$router.push({ path: this.route });
+    sidebarOff() {
       Eventbus.$emit('sidebarOff');
     },
   },
@@ -35,14 +38,15 @@ export default {
 <style lang="sass" scoped>
   .category-list
     width: 100%
-    height: 40px
+    height: 30px
+    line-height: 30px
     margin: 10px 0
     text-align: left
   .category-list__li
     width: 100%
     height: 100%
     border-left: 2px solid #d7d7d7
-    padding: 12px 0 12px 24px
+    padding-left: 20px
     transition: 0.3s ease-out
     cursor: pointer
   .category-list__li:hover

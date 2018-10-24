@@ -1,26 +1,30 @@
 export default [
   {
-    name: 'Web',
-    route: '/web/posts/intro',
-  },
-  {
     name: 'Javascript',
-    route: '/javascript/posts/intro',
+    route: '/js/posts/intro',
   },
   {
     name: 'Vue',
-    route: 'vue',
+    route: '/vue/posts/intro',
   },
   {
     name: 'Git',
-    route: 'git',
+    route: '/git/posts/intro',
+  },
+  {
+    name: 'Work',
+    route: '/work/posts/intro',
   },
   {
     name: 'Algorithm',
-    route: 'algorithm',
+    route: '/algorithm/posts/intro',
   },
   {
-    name: 'BlahBlah',
-    route: 'blahblah',
+    name: 'etc',
+    route: '/etc/posts/intro',
+  },
+  {
+    name: '아무말대잔치',
+    route: '/what/posts/intro',
   },
 ];
