@@ -8,6 +8,8 @@
 
 
 <script>
+import Eventbus from './../../../../lib/Eventbus';
+
 export default {
   name: 'CategoryList',
   props: {
@@ -24,6 +26,7 @@ export default {
   methods: {
     routing() {
       this.$router.push({ path: this.route });
+      Eventbus.$emit('sidebarOff');
     },
   },
 };

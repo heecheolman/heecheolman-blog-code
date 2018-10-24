@@ -24,7 +24,7 @@ import FlexArrow from '@/shared-components/FlexArrow';
 import Eventbus from './../../lib/Eventbus';
 
 export default {
-  name: 'WebPage',
+  name: 'JavascriptPage',
   components: {
     PostList,
     FlexArrow,
@@ -54,3 +54,8 @@ export default {
   },
 };
 </script>
+
+
+<style lang="sass" scoped>
+
+</style>

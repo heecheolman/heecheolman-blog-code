@@ -28,6 +28,6 @@ export default {
   .post-list-wrap
     width: 100%
     height: 100%
-    border-left: 1px solid rgba(44, 62, 80, 0.1)
     overflow-y: scroll
+    overflow-x: hidden
 </style>

@@ -24,6 +24,7 @@ export default {
 
 
 <style lang="sass" scoped>
+  @import './../../../../assets/sass/utils/variables'
   .profile-info-wrap
     width: 150px
     height: 140px
@@ -35,7 +36,7 @@ export default {
       .info-text--header
         font-weight: 500
         font-size: 16px
-        color: #4257f2
+        color: $major-color
     .info-body-wrap
       width: 100%
       height: 70px
