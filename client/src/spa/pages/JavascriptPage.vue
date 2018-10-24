@@ -17,7 +17,7 @@
 
 
 <script>
-import PostListDef from '@/assets/posts/web/PostList';
+import PostListDef from '@/assets/posts/js/PostList';
 import PostList from '@/spa/components/post-list/PostList';
 import FlexArrow from '@/shared-components/FlexArrow';
 
@@ -54,8 +54,3 @@ export default {
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-
-</style>

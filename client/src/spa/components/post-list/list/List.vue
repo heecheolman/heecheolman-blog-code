@@ -21,9 +21,6 @@ export default {
     title: {
       type: String,
     },
-    robot: {
-      type: String,
-    },
     route: {
       type: String,
     },

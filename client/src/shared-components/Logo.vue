@@ -24,8 +24,8 @@ export default {
     width: auto
     height: 50px
     line-height: 50px
-    color: $major-color
     h1
+      color: $major-color
       margin: 0
       text-align: center
       font-size: 1.4rem

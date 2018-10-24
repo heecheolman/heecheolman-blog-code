@@ -2,7 +2,7 @@
   <div class="post-list-wrap">
 
     <list v-for="(post, index) in list"
-      :key="index" :title="post.title" :robot="post.robot" :route="post.route"/>
+      :key="index" :title="post.title" :route="post.route"/>
 
   </div>
 </template>

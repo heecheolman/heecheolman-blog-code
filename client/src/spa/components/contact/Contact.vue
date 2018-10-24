@@ -2,8 +2,8 @@
   <div class="contact-wrap">
     <div class="contact-header">{{ name }}</div>
     <ul>
-      <li>Github</li>
-      <li>Facebook</li>
+      <li><a href="https://github.com/heecheolman">Github</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100006997631031">Facebook</a></li>
     </ul>
   </div>
 </template>
@@ -37,12 +37,17 @@ export default {
       margin: 0
       list-style: none
       li
-        font-size: 12px
         margin: 10px 0
         padding-left: 20px
         border-left: 2px solid #d7d7d7
         cursor: pointer
         transition: 0.2s ease-out
+        a
+          font-size: 14px
+          text-decoration: none
+          color: #24292e
+          a:visited
+            color: #24292e
       li:hover
         color: #4257f2
         text-decoration: underline
