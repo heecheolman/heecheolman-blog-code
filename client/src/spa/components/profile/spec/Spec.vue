@@ -35,7 +35,7 @@ export default {
     return {
       strongTagList: [
         { title: 'HTML' },
-        { title: 'Javascript' },
+        { title: 'Javascript : ES6' },
         { title: 'CSS' },
       ],
       knowTagList: [
