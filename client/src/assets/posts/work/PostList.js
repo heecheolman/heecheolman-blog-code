@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'work Introduction',
+    title: 'Introduction',
     route: 'intro',
   },
   {

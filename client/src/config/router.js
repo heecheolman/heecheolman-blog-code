@@ -30,6 +30,7 @@ import VuePage03 from '@/spa/pages/vue/VuePage03';
 import GitPage from '@/spa/pages/GitPage';
 import GitPageIntro from '@/spa/pages/git/GitPageIntro';
 import GitPage01 from '@/spa/pages/git/GitPage01';
+import GitPage02 from '@/spa/pages/git/GitPage02';
 
 
 /* Work Category */
@@ -156,6 +157,10 @@ export default new Router({
         {
           path: '1',
           component: GitPage01,
+        },
+        {
+          path: '2',
+          component: GitPage02,
         },
       ],
     },

@@ -32,8 +32,6 @@ export default {
   @media screen and (min-width: 426px) and (max-width: 1024px)
     .page-intro-section
       width: 80%
-      .main-group--txt
-        width: 80%
   .page-intro-section
     margin: 0 auto 30px
     max-width: 100%

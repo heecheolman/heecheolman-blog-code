@@ -39,18 +39,18 @@ export default {
   @import './../../../../assets/sass/utils/variables'
   $list-color: #fff
   .router-link-active
-    font-size: 1.2rem
-    font-weight: bold
-    color: $major-color
-    text-decoration: none
+    .route-header
+      font-size: 1.0rem
+      color: $major-color !important
+      text-decoration: none
 
   .list-wrap
     position: relative
     display: inline-block
     margin: 14px 10px
     width: 90%
-    height: 130px
-    border-radius: 50px
+    height: 80px
+    border-radius: 8px
     background: $list-color
     transition: all 0.3s cubic-bezier(.25,.8,.25,1)
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
@@ -59,6 +59,7 @@ export default {
       padding: 10px
       font-size: 1.0rem
       font-weight: normal
+      color: #414141
       width: 100%
       text-align: center
       transition: 0.3s
