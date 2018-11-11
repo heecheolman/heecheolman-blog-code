@@ -69,6 +69,6 @@ A. 네 그렇게 하셔야하고, 그렇게 하는게 좋습니다 ^^
 
 
 ### 포스트 확인하기
-* Chrome Devtools를 활용한 성능 측정과 개선 - 한재엽님
-* 실전 SPA 상태관리 톺아보기 - 김동우님
-* Chromium/Blink는 어떻게 동작하는가? - 방진호님
+* [Chrome Devtools를 활용한 성능 측정과 개선 - 한재엽님](https://heecheolman.github.io/#/what/posts/5)
+* [실전 SPA 상태관리 톺아보기 - 김동우님](https://heecheolman.github.io/#/what/posts/6)
+* [Chromium/Blink는 어떻게 동작하는가? - 방진호님](https://heecheolman.github.io/#/what/posts/7)
