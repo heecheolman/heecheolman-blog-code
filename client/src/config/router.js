@@ -61,6 +61,10 @@ import WhatPageIntro from '@/spa/pages/what/WhatPageIntro';
 import WhatPage01 from '@/spa/pages/what/WhatPage01';
 import WhatPage02 from '@/spa/pages/what/WhatPage02';
 import WhatPage03 from '@/spa/pages/what/WhatPage03';
+import WhatPage04 from '@/spa/pages/what/WhatPage04';
+import WhatPage05 from '@/spa/pages/what/WhatPage05';
+import WhatPage06 from '@/spa/pages/what/WhatPage06';
+import WhatPage07 from '@/spa/pages/what/WhatPage07';
 
 Vue.use(Router);
 
@@ -249,6 +253,22 @@ export default new Router({
         {
           path: '3',
           component: WhatPage03,
+        },
+        {
+          path: '4',
+          component: WhatPage04,
+        },
+        {
+          path: '5',
+          component: WhatPage05,
+        },
+        {
+          path: '6',
+          component: WhatPage06,
+        },
+        {
+          path: '7',
+          component: WhatPage07,
         },
       ],
     },
