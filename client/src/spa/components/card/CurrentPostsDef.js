@@ -1,57 +1,54 @@
 export const postgroup1 = [
   {
-    title: 'Git 기초 첫번째',
-    robot: '목차\n' +
-      'Git의 특징\n' +
-      'Git 기본 사용법\n' +
-      '수정하고 저장소에 저장하기\n' +
-      '수정하고 저장소에 저장하기\n' +
-      '파일의 상태 확인하기\n' +
-      '파일을 새로 추적하기\n' +
-      'Modified 상태의 파일을 Stage 하기\n' +
-      '파일 무시하기\n' +
-      'Staged 와 Unstaged 상태의 변경내용을 보기\n' +
-      '변경사항 커밋하기\n' +
-      'Staging Area 생략하기\n' +
-      '파일을 삭제하기\n' +
-      '파일 이름 변경하기\n' +
-      '마치며\n',
-    route: 'git/posts/2',
+    title: 'DevFest Seoul 2018 을 다녀오며',
+    robot: '과거의 나\n' +
+      '\n' +
+      '처음에 인터넷을 하다가 DevFest 가 개최한다는것을 보았다.컨퍼런스에 참여하기 앞서 드는 생각은 대학생인 나로써 과연 저 세션들을 이해할 수 있을까? 라는 것이다.\n' +
+      '\n' +
+      '물론 대학생이라는것은 핑계인것 같고 내가 듣고 이해할 수 있는 능력이 되는가? 가 관건이었다. 2018년 1월에 처음 웹개발에 발을 들어서면서 친구의 권유로 vuetiful korea4 를 가게되었는데 이때는 경험삼아 가본것이었고, 되게 신기했다. 나와는 다른세상 같았다.',
+    route: 'what/posts/4',
   },
   {
-    title: 'Twitter SNS',
-    robot: 'Twitter 프로젝트는 Web Front-end 의 기술을 익히기 위해 진행한 프로젝트입니다.  \n' +
-      'Twitter(트위터) 와의 저작권 문제가 생길 시 삭제 하도록 하겠습니다.\n' +
-      '  \n' +
-      '각 폴더별로 README.md 파일이 존재합니다.',
-    route: 'work/posts/4',
+    title: 'Chrome Devtools를 활용한 성능측정과 개선 - 한재엽님',
+    robot: '성능이란 UX다\n' +
+      '\n' +
+      '무조건 빠른게 아니라 사용자에게 끊기는 느낌이 없도록 부드럽게 보여져야한다.\n' +
+      '측정할 수 없다면 개선할 수 없다.\n' +
+      '\n' +
+      '한재엽님이 생각하는 주관적인 성능에대한 짤막한 글이었습니다.\n' +
+      '어떻게 측정할것인가?\n' +
+      '\n' +
+      '어떻게 측정할 것인가에대해 RAIL 모델을 기반한다고 말씀하셨습니다.',
+    route: 'what/posts/5',
   },
 ];
 
 export const postgroup2 = [
   {
-    title: 'REST API 알아보기',
-    robot: 'REST API 알아보기\n' +
-      '이 글에서는 REST API 가 무엇인지 알아보겠습니다.\n' +
-      '목차\n' +
-      'API 란?\n' +
-      'REST API 역사\n' +
-      'REST 구성\n' +
-      'REST 특징\n' +
-      'REST API 디자인 가이드\n' +
-      'HTTP Method의 알맞은 역할\n' +
-      'HTTP 응답 상태 코드\n' +
-      'API 란?\n' +
-      'API 는 Application Programming Interface 의 약자입니다.',
-    route: 'etc/posts/2',
+    title: '실전 SPA상태관리 톺아보기 - 김동우님',
+    robot: 'SPA란\n' +
+      '\n' +
+      '싱글 페이지 어플리케이션(Single Page Application) 의 약자로 전체 페이지를 새로 로드하는 대신 동적으로 현재 페이지를 다시 작성하여 사용자와 상호작용하는 웹 응용 프로그램 또는 웹 사이트\n' +
+      '\n' +
+      'SPA 는 View Library 가 필요하다\n' +
+      '\n' +
+      'Angular : google\n' +
+      'React : Facebook\n' +
+      'Vue : Evan You',
+    route: 'what/posts/6',
   },
   {
-    title: '자바스크립트와 이벤트 루프',
-    robot: '자바스크립트는 단일쓰레드 기반 언어이다. 이 뜻은, 동시에 하나만 처리할 수 있다는 말이다.\n' +
+    title: '모던 브라우저는 어떻게 동작하는가 ? - 방진호님',
+    robot: 'Chromium 이란?\n' +
       '\n' +
-      '하지만 웹 브라우저는 애니메이션기능이 실행되면서 이벤트 효과도 받고, Node.js 기반의 웹서버는 동시에 여러개의 HTTP 요청을 처리하기도하는데\n' +
-      '이것을 가능하게 해주는것이 이벤트 루프 이다.\n' +
-      '\n',
-    route: 'js/posts/10',
+      '크롬 브라우저의 오픈소스\n' +
+      '소스코드만 13GB 이고 iMAC 5K 기준 빌드시간만 3시간이라고 하심 ㄷ ㄷ\n' +
+      '내부 동작을 알아서 뭐하나?\n' +
+      '\n' +
+      '브라우저 및 웹 플랫폼 개발에 참여할 수 있다.\n' +
+      '웹 표준 개발에 참여\n' +
+      '프론트엔드 개발시 성능 향상에 도움이 됨\n' +
+      '다양한 소프트웨어 개발 분야에 활용될 수 있음.',
+    route: 'what/posts/7',
   },
 ];

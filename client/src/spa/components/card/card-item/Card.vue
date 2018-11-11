@@ -70,6 +70,9 @@ export default {
         font-weight: normal
         text-align: center
         font-size: 1.3rem
+        text-overflow: ellipsis
+        white-space: nowrap
+        overflow: hidden
         color: #4257f2
       .card-robot
         width: 100%
