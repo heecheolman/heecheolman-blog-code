@@ -68,7 +68,7 @@ export default {
     position: fixed
     transform: translate(-$mob-sidebar-width)
     margin-top: 50px
-    transition: 0.3s ease-in-out
+    transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1)
     width: $mob-sidebar-width
     height: 100%
     background: rgba(255, 255, 255, 1)

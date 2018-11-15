@@ -75,9 +75,11 @@ export default {
         text-align: center
         color: $major-color
       .spec-header--main
+        letter-spacing: 0.0125rem
         font-size: 16px
         font-weight: 500
       .spec-header--sub
+        letter-spacing: 0.0125rem
         font-size: 14px
         font-weight: 500
 </style>

@@ -45,6 +45,7 @@ export default {
         a
           font-size: 14px
           text-decoration: none
+          letter-spacing: 0.0125rem
           color: #24292e
           a:visited
             color: #24292e

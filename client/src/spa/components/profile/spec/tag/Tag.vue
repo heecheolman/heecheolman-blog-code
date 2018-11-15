@@ -26,6 +26,7 @@ export default {
     padding: 6px 10px
     text-align: center
     font-size: 12px
+    letter-spacing: 0.0125rem
     font-weight: 400
     color: #2c3e50
     background: rgba(255, 255, 255, 0.4)

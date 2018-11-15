@@ -55,8 +55,9 @@ export default {
     .category-list__li-text
       color: #4257f2
 
-
   .category-list__li-text
     font-size: 18px
     color: #2c3e50
+    letter-spacing: 0.0125rem
+
 </style>
