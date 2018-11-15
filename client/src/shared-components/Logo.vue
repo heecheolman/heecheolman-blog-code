@@ -29,6 +29,7 @@ export default {
       margin: 0
       text-align: center
       font-size: 1.4rem
+      letter-spacing: 0.0125rem
       user-select: none
       transition: 0.3s ease-in-out
       cursor: pointer
