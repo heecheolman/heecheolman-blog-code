@@ -31,4 +31,8 @@ export default [
     title: '모던 브라우저는 어떻게 동작하는가 ? - 방진호님',
     route: '7',
   },
+  {
+    title: '2018년 회고',
+    route: '8',
+  },
 ];
