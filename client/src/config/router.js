@@ -65,6 +65,7 @@ import WhatPage04 from '@/spa/pages/what/WhatPage04';
 import WhatPage05 from '@/spa/pages/what/WhatPage05';
 import WhatPage06 from '@/spa/pages/what/WhatPage06';
 import WhatPage07 from '@/spa/pages/what/WhatPage07';
+import WhatPage08 from '@/spa/pages/what/WhatPage08';
 
 Vue.use(Router);
 
@@ -269,6 +270,10 @@ export default new Router({
         {
           path: '7',
           component: WhatPage07,
+        },
+        {
+          path: '8',
+          component: WhatPage08,
         },
       ],
     },
