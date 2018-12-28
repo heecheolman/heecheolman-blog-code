@@ -1,7 +1,9 @@
 <template>
   <div class="spec-wrap">
     <div class="spec-section">
-      <div class="spec-header--base spec-header--main">Technical Skills</div>
+      <div class="spec-header--base spec-header--main">
+        Technical Skills 🛠
+      </div>
       <div class="spec-header--base spec-header--sub">Strong</div>
       <div class="spec-body">
 
@@ -48,8 +50,6 @@ export default {
         { title: 'NPM' },
         { title: 'Git' },
         { title: 'Sass' },
-        { title: 'AWS' },
-        { title: 'PostgreSQL' },
       ],
     };
   },
@@ -58,10 +58,9 @@ export default {
 
 
 <style lang="sass" scoped>
-  @import './../../../../assets/sass/utils/variables'
-
+  @import '../../../assets/sass/utils/variables'
   .spec-wrap
-    width: 90%
+    padding: 0 8%
     height: auto
     .spec-section
       width: 100%
@@ -72,14 +71,13 @@ export default {
         height: 30px
         margin-bottom: 5px
         line-height: 30px
-        text-align: center
         color: $major-color
       .spec-header--main
         letter-spacing: 0.0125rem
-        font-size: 16px
-        font-weight: 500
+        font-size: 1.4rem
+        font-weight: bold
       .spec-header--sub
         letter-spacing: 0.0125rem
-        font-size: 14px
+        font-size: 1.2rem
         font-weight: 500
 </style>

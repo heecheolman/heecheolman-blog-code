@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="{ path: this.route }"
+  <router-link :to="{ path: this.route, params: { lists: posts, }}"
                tag="div"
                class="category-list">
 
@@ -23,8 +23,8 @@ export default {
     route: {
       type: String,
     },
-    md: {
-      type: Object,
+    posts: {
+      type: Array,
     },
   },
   methods: {
