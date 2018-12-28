@@ -59,7 +59,7 @@ export default {
     .card-group-row
       flex-direction: row
   .card-section
-    margin: 0 auto
+    margin: 0 auto 30px
     max-width: 100%
     height: auto
     .card-group-row

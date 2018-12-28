@@ -1,33 +1,25 @@
 <template>
   <div class="page flex-container">
     <div class="page-wrap">
-      <router-view />
-      <div class="md-list">
-        <post-list :list="posts"/>
-      </div>
-    </div>
-    <flex-arrow />
-    <div class="mob-md-list-mask" :class="{ 'mask-open': isOpen }">
-      <div class="mob-md-list" :class="{ 'md-list-open': isOpen }">
-        <post-list :list="posts" />
-      </div>
+      <list v-for="(post, index) in posts"
+            :key="index" :title="post.title" :route="post.route"/>
     </div>
   </div>
 </template>
 
 
 <script>
+
 import PostListDef from '@/assets/posts/js/PostList';
-import PostList from '@/spa/components/post-list/PostList';
-import FlexArrow from '@/shared-components/FlexArrow';
+import List from '@/spa/components/post-list/list/List';
 
 import Eventbus from './../../lib/Eventbus';
 
 export default {
   name: 'JavascriptPage',
   components: {
-    PostList,
-    FlexArrow,
+    // FlexArrow,
+    List,
   },
   created() {
     Eventbus.$on('listSectionToggle', this.listSectionToggle);

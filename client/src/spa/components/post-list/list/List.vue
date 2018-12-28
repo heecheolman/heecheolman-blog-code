@@ -1,7 +1,7 @@
 <template>
-  <router-link :to="{ path: route, params:{ id: route }}"
-               class="list-wrap flex-container flex-column flex-center-sort"
+  <router-link :to="{ path: route, params: { id: route }}"
                tag="div"
+               class="list-wrap flex-container flex-column flex-center-sort"
                exact>
 
     <div class="route-header flex-container flex-center-sort" @click="closingList">

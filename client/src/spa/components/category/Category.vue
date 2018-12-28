@@ -3,7 +3,10 @@
     <div class="category-wrap__list-wrap">
 
       <category-item v-for="(item, index) in categories"
-        :key="index" :name="item.name" :route="item.route" :md="item.md"/>
+                     :key="index"
+                     :name="item.name"
+                     :route="item.route"
+                     :posts="item.posts"/>
 
     </div>
   </div>
