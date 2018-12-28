@@ -21,10 +21,3 @@ export default {
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  .contents
-    padding: 50px 20px 30px 20px
-    overflow-y: scroll
-</style>

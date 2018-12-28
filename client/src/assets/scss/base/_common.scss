@@ -1,0 +1,41 @@
+@import '../mixin/media';
+
+$mob-side-padding: 20px;
+$mob-top-padding: 50px;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.md-section {
+  width: 100%;
+  padding: 10px 30px 30px 30px;
+  overflow-y: scroll;
+}
+
+@include mob-large {
+  .md-section {
+    padding: $mob-top-padding $mob-side-padding 30px $mob-side-padding !important;
+  }
+}

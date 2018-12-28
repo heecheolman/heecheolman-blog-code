@@ -35,6 +35,7 @@ export default {
       visibility: hidden
 
   .left-side-bar-wrap
+    padding-top: 20px
     max-width: 400px
     min-width: 300px
     background: transparent

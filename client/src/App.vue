@@ -29,11 +29,13 @@ export default {
 </script>
 
 <style lang="sass">
-  @import 'assets/sass/base/common'
-  @import 'assets/sass/base/typograhpy'
-  @import 'assets/sass/layout/flex'
-  @import 'assets/sass/layout/page'
+  /*@import 'assets/sass/base/common'*/
+  /*@import 'assets/sass/base/typograhpy'*/
+  /*@import 'assets/sass/layout/flex'*/
+  /*@import 'assets/sass/layout/page'*/
   @import '~github-markdown-css'
+
+  @import 'assets/scss/main'
 
   @media screen and (max-width: 425px)
     .main-wrap .contents

@@ -18,7 +18,6 @@ import Eventbus from './../../lib/Eventbus';
 export default {
   name: 'JavascriptPage',
   components: {
-    // FlexArrow,
     List,
   },
   created() {

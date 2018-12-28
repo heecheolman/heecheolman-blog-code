@@ -17,7 +17,6 @@ import Eventbus from './../../lib/Eventbus';
 export default {
   name: 'VuePage',
   components: {
-    // FlexArrow,
     List,
   },
   created() {

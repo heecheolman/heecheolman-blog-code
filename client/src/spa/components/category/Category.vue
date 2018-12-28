@@ -1,6 +1,6 @@
 <template>
   <div class="category-wrap flex-container flex-center-sort">
-    <div class="category-wrap__list-wrap">
+    <div class="list-wrap">
 
       <category-item v-for="(item, index) in categories"
                      :key="index"
@@ -29,13 +29,3 @@ export default {
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  .category-wrap
-    width: 100%
-    height: auto
-  .category-wrap__list-wrap
-    width: 90%
-    height: auto
-</style>

@@ -21,27 +21,3 @@ export default {
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  @import './../../../../assets/sass/utils/variables'
-  .profile-info-wrap
-    width: 150px
-    height: 140px
-    .info-header-wrap
-      width: 100%
-      height: 30px
-      line-height: 30px
-      text-align: left
-      .info-text--header
-        font-weight: 500
-        font-size: 16px
-        color: $major-color
-    .info-body-wrap
-      width: 100%
-      height: 70px
-      .info-text--body
-        text-align: justify
-        font-size: 12px
-        color: rgba(44, 62, 80, 0.73)
-</style>
