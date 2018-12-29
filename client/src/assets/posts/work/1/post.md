@@ -1,6 +1,6 @@
 # Beenzino Website
 
-#### [Github Repository](https://github.com/heecheolman/Portfolio-2018__source)
+#### [Github Repository](https://github.com/heecheolman/beenzino)
 #### [Live Demo](http://heecheolman.github.io/beenzino)
 
 ## 소개

@@ -1,21 +1,6 @@
-/*
-@media screen and (max-width: 425px)
-  .main-group--header
-    padding: 0
-@media screen and (min-width: 426px) and (max-width: 1024px)
-  .main-group--header
-    padding: 0
-@media screen and (min-width: 1025px)
-  .main-group--header
-    padding: 0 8%
-  .main-group--txt
-    padding: 0 8%
-
- */
-
 @import '../mixin/media';
 
-.main-group--header {
+.blog-group--header {
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -24,7 +9,7 @@
   color: #4257f2;
 }
 
-.main-group--txt {
+.blog-group--txt {
   width: 100%;
   height: auto;
   line-height: 160%;

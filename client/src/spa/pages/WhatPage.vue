@@ -1,46 +1,45 @@
 <template>
-  <div class="page flex-container">
-    <div class="page-wrap">
-      <list v-for="(post, index) in posts"
-            :key="index" :title="post.title" :route="post.route"/>
+  <div class="page flex-container flex-column">
+
+    <page-intro
+      :title="introData.title"
+      :text="introData.text" />
+
+    <div class="blog-group--header">
+      포스트들 📚
     </div>
+
+    <div class="list-container">
+
+      <post-list v-for="(post, index) in posts"
+                 :key="index"
+                 :title="post.title"
+                 :robot="post.robot"
+                 :route="post.route"/>
+
+    </div>
+
   </div>
 </template>
 
 
 <script>
+import IntroData from '@/assets/posts/what/intro/IntroData';
 import PostListDef from '@/assets/posts/what/PostList';
-import List from '@/spa/components/post-list/list/List';
-
-import Eventbus from './../../lib/Eventbus';
+import PageIntro from '@/spa/components/page-intro/PageIntro';
+import PostList from '@/spa/components/post-list/PostList';
 
 export default {
   name: 'WhatPage',
   components: {
-    List,
-  },
-  created() {
-    Eventbus.$on('listSectionToggle', this.listSectionToggle);
-    Eventbus.$on('listSectionOff', this.listSectionOff);
-  },
-  computed: {
-    isOpen() {
-      return this.opened;
-    },
+    PageIntro,
+    PostList,
   },
   data() {
     return {
+      introData: IntroData,
       posts: PostListDef,
-      opened: false,
     };
-  },
-  methods: {
-    listSectionToggle() {
-      this.opened = !this.opened;
-    },
-    listSectionOff() {
-      this.opened = false;
-    },
   },
 };
 </script>

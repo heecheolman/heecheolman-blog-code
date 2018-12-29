@@ -23,7 +23,8 @@ export default [
   {
     path: 'etc/posts/3',
     component: EtcPage03,
-  },{
+  },
+  {
     path: 'etc/posts/4',
     component: EtcPage04,
   },

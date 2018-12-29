@@ -1,6 +1,6 @@
 <template>
   <div class="card-section">
-    <div class="main-group--header">
+    <div class="blog-group--header">
       새로운 포스트 🎉
     </div>
     <div class="card-group-row">

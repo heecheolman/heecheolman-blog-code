@@ -1,9 +1,7 @@
 <template>
   <div class="spec-wrap">
     <div class="spec-section">
-      <div class="spec-header--base spec-header--main">
-        Technical Skills 🛠
-      </div>
+      <div class="blog-group--header">Technical Skills 🛠</div>
       <div class="spec-header--base spec-header--sub">Strong</div>
       <div class="spec-body">
 

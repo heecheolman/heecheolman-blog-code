@@ -1,6 +1,6 @@
 <template>
   <div class="category-wrap flex-container flex-center-sort">
-    <div class="list-wrap">
+    <div class="category-list-wrap">
 
       <category-item v-for="(item, index) in categories"
                      :key="index"

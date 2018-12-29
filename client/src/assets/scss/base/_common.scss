@@ -1,8 +1,3 @@
-@import '../mixin/media';
-
-$mob-side-padding: 20px;
-$mob-top-padding: 50px;
-
 * {
   box-sizing: border-box;
 }
@@ -21,21 +16,37 @@ p {
   padding: 0;
   line-height: 150%;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-
-.md-section {
+.main-wrap {
   width: 100%;
-  padding: 10px 30px 30px 30px;
-  overflow-y: scroll;
+  height: 100vh;
 }
 
-@include mob-large {
-  .md-section {
-    padding: $mob-top-padding $mob-side-padding 30px $mob-side-padding !important;
-  }
+.slide-fade-enter-active {
+  transition: all .3s ease;
 }
+
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(-300px);
+}
+
+/*
+@media screen and (max-width: 425px)
+    .main-wrap .contents
+      display: block
+      visibility: visible
+  @media screen and (min-width: 426px) and (max-width: 1024px)
+    .main-wrap .contents
+      width: 100%
+ */
+
+//@include mob-large {
+//  .main-wrap .contents {
+//
+//  }
+//  width: 100%;
+//}

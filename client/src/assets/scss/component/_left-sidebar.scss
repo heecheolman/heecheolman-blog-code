@@ -1,0 +1,60 @@
+@import '../mixin/media';
+
+$mob-sidebar-width: 280px;
+
+.left-side-bar-wrap {
+  padding-top: 20px;
+  max-width: 400px;
+  min-width: 300px;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+  background: transparent;
+  border-right: 1px solid rgba(215, 215, 215, 0.4);
+  overflow-y: scroll;
+  opacity: 1;
+}
+
+.mob-left-side-bar-mask {
+  display: none;
+  visibility: hidden;
+  position: fixed;
+  transform: translate(-$mob-sidebar-width);
+  margin-top: 50px;
+  transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  width: $mob-sidebar-width;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+
+  z-index: 1010;
+}
+
+.mob-left-side-bar {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  height: calc(100% - 50px);
+  z-index: 2000;
+  overflow-y: scroll;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.side-bar-open {
+  transform: translate(0px);
+}
+
+@include mob-large {
+  .left-side-bar-wrap {
+    display: none;
+    visibility: hidden;
+  }
+
+  .mob-left-side-bar-mask {
+    display: block;
+    visibility: visible;
+  }
+
+  .mob-left-side-bar {
+    display: block;
+    visibility: visible;
+  }
+}
