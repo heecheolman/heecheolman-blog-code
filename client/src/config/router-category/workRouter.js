@@ -23,7 +23,8 @@ export default [
   {
     path: '/work/posts/3',
     component: WorkPage03,
-  },{
+  },
+  {
     path: '/work/posts/4',
     component: WorkPage04,
   },

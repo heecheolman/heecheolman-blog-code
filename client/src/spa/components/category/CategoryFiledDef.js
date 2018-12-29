@@ -4,6 +4,10 @@ export default [
     route: '/js/posts',
   },
   {
+    name: 'Typescript',
+    route: '/ts/posts',
+  },
+  {
     name: 'Vue',
     route: '/vue/posts',
   },

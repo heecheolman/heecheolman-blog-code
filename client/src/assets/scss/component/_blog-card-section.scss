@@ -1,0 +1,41 @@
+@import './../mixin/media';
+
+.card-section {
+  margin: 0 auto 30px;
+  max-width: 100%;
+  height: auto;
+
+  .card-group-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@include mob-small {
+  .card-section {
+
+    .card-group-row {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+}
+
+@include mob-mid {
+  .card-section {
+
+    .card-group-row {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+}
+
+@include mob-large {
+  .card-section {
+    .card-group-row {
+      flex-direction: column;
+    }
+  }
+}

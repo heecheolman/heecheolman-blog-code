@@ -1,6 +1,6 @@
 <template>
   <div class="page contents">
-    <page-intro />
+    <blog-intro />
     <card-section />
     <spec-section />
   </div>
@@ -8,23 +8,16 @@
 
 
 <script>
-import PageIntro from './../components/page-intro/PageIntro';
+import BlogIntro from '../components/blog-intro/BlogIntro';
 import CardSection from './../components/card/CardSection';
 import SpecSection from './../components/spec/Spec';
 
 export default {
   name: 'MainPage',
   components: {
-    PageIntro,
+    BlogIntro,
     CardSection,
     SpecSection,
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  .contents
-    padding: 50px 20px 30px 20px
-    overflow-y: scroll
-</style>

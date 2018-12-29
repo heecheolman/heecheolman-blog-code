@@ -27,29 +27,3 @@ export default {
   },
 };
 </script>
-
-<style lang="sass">
-  @import 'assets/sass/base/common'
-  @import 'assets/sass/base/typograhpy'
-  @import 'assets/sass/layout/flex'
-  @import 'assets/sass/layout/page'
-  @import '~github-markdown-css'
-
-  @media screen and (max-width: 425px)
-    .main-wrap .contents
-      display: block
-      visibility: visible
-  @media screen and (min-width: 426px) and (max-width: 1024px)
-    .main-wrap .contents
-      width: 100%
-
-  .main-wrap
-    width: 100%
-    height: 100vh
-  .slide-fade-enter-active
-    transition: all .3s ease
-  .slide-fade-leave-active
-    transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1)
-  .slide-fade-enter, .slide-fade-leave-to
-    transform: translateX(-300px)
-</style>

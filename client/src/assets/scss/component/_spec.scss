@@ -1,0 +1,31 @@
+@import '../utils/variables';
+
+$spec-height: 30px;
+
+.spec-wrap {
+  height: auto;
+
+  .spec-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+    .spec-header--base {
+      width: 100%;
+      height: $spec-height;
+      margin-bottom: 5px;
+      line-height: $spec-height;
+      color: $major-color;
+      letter-spacing: 0.0125rem;
+      font-weight: bold;
+    }
+
+    .spec-header--main {
+      font-size: 1.4rem;
+    }
+
+    .spec-header--sub {
+      font-size: 1.2rem;
+    }
+  }
+}

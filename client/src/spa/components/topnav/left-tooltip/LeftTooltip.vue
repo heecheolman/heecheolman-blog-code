@@ -19,19 +19,3 @@ export default {
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  @import './../../../../assets/sass/utils/variables'
-
-  .left-tooltip-wrap
-    z-index: 2100
-    width: 50px
-    height: 50px
-    .left-tooltip-button
-      width: 1.25rem
-      height: 1.25rem
-      position: absolute
-      color: $major-color
-      cursor: pointer
-</style>

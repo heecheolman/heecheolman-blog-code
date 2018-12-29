@@ -4,6 +4,7 @@ import MainPage from '@/spa/pages/MainPage';
 
 /* Category Router */
 import JSRouter from './router-category/jsRouter';
+import TSRouter from './router-category/tsRouter';
 import vueRouter from './router-category/vueRouter';
 import gitRouter from './router-category/gitRouter';
 import workRouter from './router-category/workRouter';
@@ -21,6 +22,7 @@ export default new Router({
       component: MainPage,
     },
     ...JSRouter,
+    ...TSRouter,
     ...vueRouter,
     ...gitRouter,
     ...workRouter,

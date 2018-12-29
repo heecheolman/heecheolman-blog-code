@@ -46,38 +46,3 @@ export default {
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  $mob-sidebar-width: 280px
-
-  @media screen and (max-width: 425px)
-    .mob-left-side-bar-mask
-      display: block
-      visibility: visible
-  @media screen and (min-width: 426px) and (max-width: 1024px)
-    .mob-left-side-bar-mask
-      display: block
-      visibility: visible
-  @media screen and (min-width: 1025px)
-    .mob-left-side-bar-mask
-      display: none
-      visibility: hidden
-
-  .mob-left-side-bar-mask
-    position: fixed
-    transform: translate(-$mob-sidebar-width)
-    margin-top: 50px
-    transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1)
-    width: $mob-sidebar-width
-    height: 100%
-    background: rgba(255, 255, 255, 1)
-    z-index: 1010
-  .mob-left-side-bar
-    width: 100%
-    height: calc(100% - 60px)
-    overflow-y: scroll
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
-  .side-bar-open
-    transform: translate(0px)
-</style>

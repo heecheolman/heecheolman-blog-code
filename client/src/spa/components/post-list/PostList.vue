@@ -1,33 +1,34 @@
 <template>
-  <div class="post-list-wrap">
+  <router-link :to="{ path: route, params: { id: route }}"
+               tag="div"
+               class="list-wrap"
+               exact>
 
-    <list v-for="(post, index) in list"
-      :key="index" :title="post.title" :route="post.route"/>
+    <div class="blog-post-header">
+      {{ title }} 📖
+    </div>
 
-  </div>
+    <div class="blog-post-robot">
+      {{ robot }}
+    </div>
+
+  </router-link>
 </template>
 
-<script>
-import List from './list/List';
 
+<script>
 export default {
   name: 'PostList',
   props: {
-    list: {
-      type: Array,
+    title: {
+      type: String,
     },
-  },
-  components: {
-    List,
+    robot: {
+      type: String,
+    },
+    route: {
+      type: String,
+    },
   },
 };
 </script>
-
-
-<style lang="sass" scoped>
-  .post-list-wrap
-    width: 100%
-    height: 100%
-    overflow-y: scroll
-    overflow-x: hidden
-</style>

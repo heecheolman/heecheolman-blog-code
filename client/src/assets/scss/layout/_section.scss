@@ -1,0 +1,22 @@
+@import '../mixin/media';
+
+$mob-side-padding: 20px;
+$mob-top-padding: 50px;
+
+.md-section {
+  width: 100%;
+  padding: 10px 30px 30px 30px;
+  overflow-y: scroll;
+}
+
+.page-intro-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+@include mob-large {
+  .md-section {
+    padding: $mob-top-padding $mob-side-padding 30px $mob-side-padding !important;
+  }
+}
