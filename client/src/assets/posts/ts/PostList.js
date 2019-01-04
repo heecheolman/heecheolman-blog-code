@@ -19,4 +19,9 @@ export default [
     robot: '타입스크립트 클래스 자바스크립트는 애초에 프로토타입기반을 이용해 상속을 구현합니다. 하지만 이는 클래스기반 프로그래머들에게 익숙하지 않을 수 있습니다. ES6 에 존재하는 class 키워드를 이용해 구현할 수 있습니다. 타입스크립트도 이와 동일하게 class 키워드를 이용합니다. 목차 클래스 키워드 생성자 상속 오버라이드 접근제어자 public protected private readonly 매개변수 프로퍼티 static 추상 클래스 Deep dive into Class 클래스 키워드 ES6 를 다루어보셨다면 기존에 생각했던 것과 동일합니다.',
     route: 'posts/4',
   },
+  {
+    title: '타입스크립트 함수',
+    robot: '타입스크립트 함수 타입스크립트의 함수(Functions) 에 대해 알아봅니다. ES6와 작성하는 방법은 크게 다르지 않습니다. 좀 더 타입에 대해 명확해졌을 뿐입니다. 목차 함수작성Default Parameter Optional Parameter Rest Parameter Union Type Overloading this 함수작성  타입스크립트에서 함수작성하는 방법을 살펴보면 ES6와 크게 다르지않습니다. 매개변수의 타입과 return 타입에 대해 정해줄 뿐입니다',
+    route: 'posts/5',
+  },
 ];
