@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg" width="80" height="80">
+<img src="https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg" width="80" height="80" style="margin-top: 30px;">
 </div>
 
 # 타입스크립트 클래스
