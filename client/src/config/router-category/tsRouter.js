@@ -6,6 +6,7 @@ import TSPage02 from '@/spa/pages/ts/TSPage02';
 import TSPage03 from '@/spa/pages/ts/TSPage03';
 import TSPage04 from '@/spa/pages/ts/TSPage04';
 import TSPage05 from '@/spa/pages/ts/TSPage05';
+import TSPage06 from '@/spa/pages/ts/TSPage06';
 
 export default [
   {
@@ -32,5 +33,9 @@ export default [
   {
     path: '/ts/posts/5',
     component: TSPage05,
+  },
+  {
+    path: '/ts/posts/6',
+    component: TSPage06,
   },
 ];
