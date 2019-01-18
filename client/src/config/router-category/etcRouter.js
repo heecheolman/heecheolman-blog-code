@@ -13,19 +13,19 @@ export default [
     component: EtcPage,
   },
   {
-    path: 'etc/posts/1',
+    path: '/etc/posts/1',
     component: EtcPage01,
   },
   {
-    path: 'etc/posts/2',
+    path: '/etc/posts/2',
     component: EtcPage02,
   },
   {
-    path: 'etc/posts/3',
+    path: '/etc/posts/3',
     component: EtcPage03,
   },
   {
-    path: 'etc/posts/4',
+    path: '/etc/posts/4',
     component: EtcPage04,
   },
 ];

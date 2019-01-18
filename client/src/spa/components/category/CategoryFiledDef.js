@@ -12,6 +12,10 @@ export default [
     route: '/vue/posts',
   },
   {
+    name: 'Angular',
+    route: '/angular/posts',
+  },
+  {
     name: 'Git',
     route: '/git/posts',
   },
