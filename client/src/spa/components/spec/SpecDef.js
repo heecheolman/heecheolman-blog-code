@@ -5,13 +5,11 @@ export const strongTags = [
 ];
 
 export const knowTags = [
-  { title: 'Java' },
-  { title: 'C++' },
-  { title: 'C' },
   { title: 'Node.js' },
   { title: 'Webpack' },
+  { title: 'Angular' },
   { title: 'Vue' },
   { title: 'NPM' },
-  { title: 'Git' },
   { title: 'Sass' },
+  { title: 'Git' },
 ];
