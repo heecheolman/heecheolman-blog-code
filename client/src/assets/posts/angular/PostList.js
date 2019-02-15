@@ -99,4 +99,9 @@ export default [
     robot: '먼저, <template> 의 태그를 알아보자면 미리 정의해 둔 HTML 을 필요한 시점에 동적으로 인스턴스화해 출력을 삽입할 수 있는 표준적인 방법 입니다. 즉, DOM 트리에는 존재하지만 인스턴스화를 통해 화면에 출력이 된다는 것입니다.',
     route: 'posts/20',
   },
+  {
+    title: 'ElementRef, ViewRef, ComponentRef, ViewContainerRef',
+    robot: '역할 특정 엘리먼트를 기반으로 작동해야 하는 어떤 기능에 대해 대상 엘리먼트를 지정해주는 역할을 합니다. 특징 다양한 환경(플랫폼)에서 실행될 수 있는것을 염두에 둔 추상화된 객체, 플랫폼에 따라 nativeElement 는 다른 객체가 됩니다. 생성자에 주입되는 ElementRef 는 루트 엘리먼트 다른 플랫폼에서도 실행될 가능성을 염두에 둔 부분이기 때문에 Renderer2 의 메서드를 이용하여 처리하는것이 좋습니다.',
+    route: 'posts/21',
+  },
 ];
