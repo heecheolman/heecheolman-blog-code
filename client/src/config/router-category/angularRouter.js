@@ -18,6 +18,7 @@ import AngularPage14 from '@/spa/pages/angular/AngularPage14';
 import AngularPage15 from '@/spa/pages/angular/AngularPage15';
 import AngularPage16 from '@/spa/pages/angular/AngularPage16';
 import AngularPage17 from '@/spa/pages/angular/AngularPage17';
+import AngularPage18 from '@/spa/pages/angular/AngularPage18';
 
 
 export default [
@@ -93,5 +94,9 @@ export default [
   {
     path: '/angular/posts/17',
     component: AngularPage17,
+  },
+  {
+    path: '/angular/posts/18',
+    component: AngularPage18,
   },
 ];
