@@ -67,7 +67,7 @@ constructor(
 ngForOf 의 생성자를 보면 위와 같이 주입받습니다.
 
 * ViewContainerRef: 동적 뷰 생성 위치 지정
-* TemplateRef<NgForOfContext<T>>: 생성될 요소
+* `TemplateRef<NgForOfContext<T>>`: 생성될 요소
 * IterableDiffers: 비교함수
 
 #### 변경 감지
