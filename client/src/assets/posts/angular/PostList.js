@@ -109,4 +109,9 @@ export default [
     robot: '*ngFor 문법은 아래의 형태로 변환됩니다. 눈여겨볼 점은 다음과 같습니다. ngFor 디렉티브 [ngForOf] 어트리뷰트의 list 속성 바인딩 ngFor 와 ngForOf 가 selector 에 정의되어있고, ngForOf 에 데이터바인딩이 됩니다. 그리고 ngForOf 는 NgIterable<T> 타입으로 정의되고 있습니다.',
     route: 'posts/22',
   },
+  {
+    title: '쿼리스트링을 저장하자',
+    robot: '앵귤러 라우팅을 공부하고 적용하다가 쿼리스트링을 저장하고 이에 대한 활용방안에 대해 적어보려합니다. query string 쿼리스트링은 url 의 마지막에 ? 를 붙여 일종의 데이터를 붙여넣는 방식입니다. 예를들어 http://localhost:4200/users?page=1&type=admin',
+    route: 'posts/23',
+  },
 ];
