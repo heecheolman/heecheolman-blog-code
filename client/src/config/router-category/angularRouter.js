@@ -24,6 +24,7 @@ import AngularPage20 from '@/spa/pages/angular/AngularPage20';
 import AngularPage21 from '@/spa/pages/angular/AngularPage21';
 import AngularPage22 from '@/spa/pages/angular/AngularPage22';
 import AngularPage23 from '@/spa/pages/angular/AngularPage23';
+import AngularPage24 from '@/spa/pages/angular/AngularPage24';
 
 
 export default [
@@ -123,5 +124,9 @@ export default [
   {
     path: '/angular/posts/23',
     component: AngularPage23,
+  },
+  {
+    path: '/angular/posts/24',
+    component: AngularPage24,
   },
 ];

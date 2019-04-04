@@ -114,4 +114,9 @@ export default [
     robot: '앵귤러 라우팅을 공부하고 적용하다가 쿼리스트링을 저장하고 이에 대한 활용방안에 대해 적어보려합니다. query string 쿼리스트링은 url 의 마지막에 ? 를 붙여 일종의 데이터를 붙여넣는 방식입니다. 예를들어 http://localhost:4200/users?page=1&type=admin',
     route: 'posts/23',
   },
+  {
+    title: 'Angular 의존성 주입 (Dependency Injection)',
+    robot: '앵귤러에서 사용되는 의존성 주입 방법이 여러가지 있는데 하나씩 살펴봅니다.',
+    route: 'posts/24',
+  },
 ];
