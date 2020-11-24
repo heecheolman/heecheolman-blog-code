@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "github-markdown-css": "^2.10.0",
-    "highlight.js": "^9.13.1",
+    "highlight.js": "^10.1.2",
     "imagemin-webpack-plugin": "^2.4.2",
     "vue": "^2.5.2",
     "vue-markdown-loader": "^2.4.1",
